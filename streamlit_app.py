@@ -1,3 +1,5 @@
+import streamlit as st
+
 email = st.text_input("Gib deine E-Mail-Adresse ein:")
 
 if email:
