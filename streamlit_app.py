@@ -1,7 +1,7 @@
 email = st.text_input("Gib deine E-Mail-Adresse ein:")
 
 if email:
-    with open("mein_buch.pdf", "rb") as file:
+    with open("Gedankenchaos.pdf", "rb") as file:
         st.download_button(
             label="📥 Download starten",
             data=file,
