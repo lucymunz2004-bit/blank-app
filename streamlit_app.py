@@ -7,7 +7,7 @@ if email:
         st.download_button(
             label="📥 Download starten",
             data=file,
-            file_name="Mein_Buch.pdf",
+            file_name="Gedankenchaos.pdf",
             mime="application/pdf"
         )
 
